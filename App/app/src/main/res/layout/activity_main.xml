@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wh_background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/mainImg"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:adjustViewBounds="true"
+        android:src="@mipmap/ic_launcher_recycle_foreground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+    <!--
+      <com.sdsmdg.harjot.rotatingtext.RotatingTextWrapper
+          android:id="@+id/custom_switcher"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintLeft_toLeftOf="parent"
+          app:layout_constraintRight_toRightOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.6"
+          />
+      !-->
+
+    <TextView
+        android:id="@+id/mainTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="잠들어있는"
+        android:textColor="#635A5A"
+        android:textSize="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <TextView
+        android:id="@+id/mainTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="물건"
+        android:textColor="#FF6331"
+        android:textSize="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="블루투스 연결시도"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <com.nihaskalam.progressbuttonlibrary.CircularProgressButton
+        android:id="@+id/btnStart"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        app:pb_colorCancelText="@color/pb_orange"
+        app:pb_colorCompleteText="#ffffff"
+        app:pb_colorErrorText="#000000"
+        app:pb_colorIndicator="@color/colorButtonCompleteState"
+        app:pb_cornerRadius="48dp"
+        app:pb_selectorCancel="@color/pb_cancel_state_selector"
+        app:pb_selectorComplete="@color/complete_state_selector"
+        app:pb_selectorError="@color/error_state_selector"
+        app:pb_selectorIdle="@color/idle_state_selector"
+        app:pb_textColorAfterClick="@color/colorWhite"
+        app:pb_textComplete="사용가능"
+        app:pb_textError="사용불가"
+        app:pb_textIdle="판매하기" />
+
+
+    <ImageButton
+
+        android:id="@+id/btnHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/transparent"
+
+        android:src="@mipmap/ic_help"
+        android:visibility="invisible"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+
+        android:id="@+id/btnAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/transparent"
+
+        android:src="@mipmap/ic_setting"
+        android:visibility="invisible"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

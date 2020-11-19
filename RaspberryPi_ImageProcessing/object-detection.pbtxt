@@ -1,0 +1,16 @@
+item {
+  id: 1
+  name: 'book'
+}
+item {
+  id: 2
+  name: 'can'
+}
+item {
+  id: 3
+  name: 'soju'
+}
+item {
+  id: 4
+  name: 'makju'
+}

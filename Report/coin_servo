@@ -1,0 +1,35 @@
+#include <Servo.h>
+#define A 0
+#define B 55
+
+//10원은 10 / 55
+//50원은 8 / 60
+//100원은 10 / 60
+//500원은 0 / 55
+
+Servo myservo;//서보 라이브러리 변수 선언
+int pos = A;
+
+void setup() {
+    myservo.attach(9);//setup에서 서버라는 클래스의 초기화 attach라는 매소드(함수)에다가 9라는 핀번호로 초기화
+    myservo.write(A);
+}
+
+void loop() {
+  for(pos = A ; pos < B ; pos += 1)
+  {
+    //Servo.write(각도값)
+    myservo.write(pos);
+    //모터는 다시 (돌아옴 돌아오는 시간은 딜레이 시간 만큼이 걸림)
+    delay(10);
+  }
+  //delay(1000);
+     for(pos = B ; pos > A -5 ; pos -= 1)
+  {
+    //Servo.write(각도값)
+    myservo.write(pos);
+    //모터는 다시 (돌아옴 돌아오는 시간은 딜레이 시간 만큼이 걸림)
+    delay(10);
+  }
+  delay(1000);
+}

@@ -47,7 +47,7 @@
 
 
 
-3) 기기 UNIQUE ID 생성
+3) 기기 UNIQUE ID 생성 [(참고 블로그)](https://toshi15shkim.github.io/articles/2019-10/java-unique-id)
 ```java
   // 고유번호 생성
     public static String getUniqueId() {

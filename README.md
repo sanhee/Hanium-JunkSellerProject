@@ -5,7 +5,7 @@
  
  | | | |
 |------|---|---|
-|<p align="left"><img src="https://i.imgur.com/fWCldM6.png" width="200" height="300"></p> <p align="center">| <img src="https://i.imgur.com/KQ1JQfK.jpg" width="200" height="300"></p>|추후 업로드|
+|<p align="left"><img src="https://i.imgur.com/XrpEvlF.png" width="200" height="300"></p> <p align="center">| <img src="https://i.imgur.com/KQ1JQfK.jpg" width="200" height="300"></p>|추후 업로드|
 
 ### 작품 영상 링크(Youtube)
 > - https://youtu.be/Oav8CXkXcVU

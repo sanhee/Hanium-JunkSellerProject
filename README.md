@@ -2,9 +2,11 @@
  -  <b>과학기술정보통신부</b>에서 주관하는 2020 한이음 공모전 <b>입선</b>
  -  <b>한이음</b> 2020 학술대회 <b>우수상</b> 수상
  -  <b>한국정보처리학회</b> 2020 추계학술대회 <b>동상</b> 수상
- <p align="center"><img src="https://i.imgur.com/KQ1JQfK.jpg" width="200" height="300"></p>
-
  
+ |수행증서|추계학술대회 수상|한이음 학술대회 수상|
+|------|---|---|
+|<p align="left"><img src="https://i.imgur.com/fWCldM6.png" width="200" height="300"></p> <p align="center">| <img src="https://i.imgur.com/KQ1JQfK.jpg" width="200" height="300"></p>|추후 업로드|
+
 ### 작품 영상 링크(Youtube)
 > - https://youtu.be/Oav8CXkXcVU
 

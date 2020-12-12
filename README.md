@@ -3,7 +3,7 @@
  -  <b>한이음</b> 2020 학술대회 <b>우수상</b> 수상
  -  <b>한국정보처리학회</b> 2020 추계학술대회 <b>동상</b> 수상
  
- | | | | 
+ |공모전 입선|한이음 학술대회 우수상|정보처리학회 동상| 
 |------|---|---|
 |<p align="left"><img src="https://i.imgur.com/XrpEvlF.png" width="200" height="300"></p> <p align="center">| <img src="https://i.imgur.com/WTUSxeQ.jpg" width="200" height="300"></p>| <img src="https://i.imgur.com/KQ1JQfK.jpg" width="200" height="300">|
 

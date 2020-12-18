@@ -5,7 +5,7 @@
  
  |공모전 입선|한이음 학술대회 우수상|정보처리학회 동상| 
 |------|---|---|
-|<p align="left"><img src="https://i.imgur.com/XrpEvlF.png" width="200" height="300"></p> <p align="center">| <img src="https://i.imgur.com/WTUSxeQ.jpg" width="200" height="300"></p>| <img src="https://i.imgur.com/KQ1JQfK.jpg" width="200" height="300">|
+|<p align="left"><img src="https://i.imgur.com/fL9gguY.jpg" width="200" height="300"></p> <p align="center">| <img src="https://i.imgur.com/WTUSxeQ.jpg" width="200" height="300"></p>| <img src="https://i.imgur.com/KQ1JQfK.jpg" width="200" height="300">|
 
 ### 작품 영상 링크(Youtube)
 > - https://youtu.be/Oav8CXkXcVU
